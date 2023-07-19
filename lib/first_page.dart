@@ -40,26 +40,29 @@ class _FirstPageState extends State<FirstPage> {
                       const Padding(
                         padding: EdgeInsets.only(top: 18, left: 45, right: 44),
                         child: Text(
-                          'You have Donated successfully\n you can track your donation.\n Thank you.',
+                          'You have Donated successfully\n you can track your donation.\n Thank you.\n',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontSize: 12, fontWeight: FontWeight.w600),
                         ),
                       ),
-                      Container(
-                        height: 50,
-                        width: 180,
-                        decoration: BoxDecoration(
-                            color: const Color(0xff326060),
-                            borderRadius: BorderRadius.circular(10)),
-                        child: const Center(
-                            child: Text(
-                          'Track Donation',
-                          style: TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.w600,
-                              color: Colors.white),
-                        )),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 8, left: 45, right: 44),
+                        child: Container(
+                          height: 50,
+                          width: 180,
+                          decoration: BoxDecoration(
+                              color: const Color(0xff326060),
+                              borderRadius: BorderRadius.circular(10)),
+                          child: const Center(
+                              child: Text(
+                            'Track Donation',
+                            style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.white),
+                          )),
+                        ),
                       )
                     ],
                   ),
