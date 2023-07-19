@@ -47,7 +47,8 @@ class _FirstPageState extends State<FirstPage> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 8, left: 45, right: 44),
+                        padding:
+                            const EdgeInsets.only(top: 8, left: 45, right: 44),
                         child: Container(
                           height: 50,
                           width: 180,
@@ -62,6 +63,23 @@ class _FirstPageState extends State<FirstPage> {
                                 fontWeight: FontWeight.w600,
                                 color: Colors.white),
                           )),
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 10,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 128, right: 126),
+                        child: Container(
+                          height: 24,
+                          width: 22,
+                          child: const Text(
+                            'Ok',
+                            style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                                color: Color(0xff326060)),
+                          ),
                         ),
                       )
                     ],
