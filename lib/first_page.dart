@@ -37,7 +37,15 @@ class _FirstPageState extends State<FirstPage> {
                               fontWeight: FontWeight.w700),
                         ),
                       ),
-                      Text('You have Donated successfully\n you can track your donation.\n Thank you.', textAlign: TextAlign.center, style: TextStyle(fontSize: 12,fontWeight:FontWeight.w600),)
+                      Padding(
+                        padding: EdgeInsets.only(top: 18,left: 45,right: 44),
+                        child: Text(
+                          'You have Donated successfully\n you can track your donation.\n Thank you.',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                              fontSize: 12, fontWeight: FontWeight.w600),
+                        ),
+                      )
                     ],
                   ),
                 ),
