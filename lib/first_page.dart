@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FirstPage extends StatefulWidget {
-  const FirstPage({super.key});
+  const FirstPage({Key? key}) : super(key: key);
 
   @override
   State<FirstPage> createState() => _FirstPageState();
@@ -53,6 +53,15 @@ class _FirstPageState extends State<FirstPage> {
                           height: 50,
                           width: 180,
                           decoration: BoxDecoration(
+                              boxShadow: const [
+                                BoxShadow(
+                                  color: Colors.grey, 
+                                  blurRadius: 3.0, 
+                                  spreadRadius: 0.5, 
+                                  offset: Offset(
+                                      0, 4), 
+                                ),
+                              ],
                               color: const Color(0xff326060),
                               borderRadius: BorderRadius.circular(10)),
                           child: const Center(
