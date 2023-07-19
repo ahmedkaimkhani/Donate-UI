@@ -19,18 +19,26 @@ class _FirstPageState extends State<FirstPage> {
             children: [
               Center(
                 child: Container(
-                  child: Text(
-                    'Donated Successfully',
-                    style: TextStyle(
-                        fontSize: 22,
-                        color: Color(0xff326060),
-                        fontWeight: FontWeight.w700),
-                  ),
                   height: 270,
                   width: 276,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     color: Colors.white,
+                  ),
+                  child: Column(
+                    children: const [
+                      Padding(
+                        padding: EdgeInsets.only(top: 40, left: 29, right: 14),
+                        child: Text(
+                          'Donated Successfully',
+                          style: TextStyle(
+                              fontSize: 22,
+                              color: Color(0xff326060),
+                              fontWeight: FontWeight.w700),
+                        ),
+                      ),
+                      Text('You have Donated successfully\n you can track your donation.\n Thank you.', textAlign: TextAlign.center, style: TextStyle(fontSize: 12,fontWeight:FontWeight.w600),)
+                    ],
                   ),
                 ),
               )
