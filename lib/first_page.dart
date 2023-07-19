@@ -19,6 +19,13 @@ class _FirstPageState extends State<FirstPage> {
             children: [
               Center(
                 child: Container(
+                  child: Text(
+                    'Donated Successfully',
+                    style: TextStyle(
+                        fontSize: 22,
+                        color: Color(0xff326060),
+                        fontWeight: FontWeight.w700),
+                  ),
                   height: 270,
                   width: 276,
                   decoration: BoxDecoration(
@@ -30,7 +37,7 @@ class _FirstPageState extends State<FirstPage> {
             ],
           )
         ],
-      ) ,
+      ),
     );
   }
 }
