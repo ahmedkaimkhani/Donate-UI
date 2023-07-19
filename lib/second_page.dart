@@ -45,36 +45,62 @@ class _SecondPageState extends State<SecondPage> {
                     ],
                   ),
                   const SizedBox(height: 11),
-                  const Divider(
+                  Divider(
                     height: 1,
-                    color: Colors.black,
+                    color: Colors.grey[600],
                   ),
-                  const SizedBox(height: 9,),
+                  const SizedBox(
+                    height: 9,
+                  ),
                   const Text(
                     'Total You have Donated',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
                   ),
-                  const SizedBox(height: 11,),
+                  const SizedBox(
+                    height: 11,
+                  ),
                   Container(
                     width: 325,
                     height: 158,
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(
-                        color: const Color(0xff326060),
-                        width: 1,
-                      )
-                    ),
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(
+                          color: const Color(0xff326060),
+                          width: 1,
+                        )),
                   ),
                   const SizedBox(height: 20),
-                  const Divider(
+                  Divider(
                     height: 1,
-                    color: Colors.black,
+                    color: Colors.grey[600],
                   ),
                   const SizedBox(height: 3),
                   const Text(
                     'Available Donation',
                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.w600),
+                  ),
+                  const SizedBox(height: 9),
+                  Container(
+                    width: 325,
+                    height: 82,
+                    decoration: BoxDecoration(
+                      color: const Color(0xff326060),
+                      borderRadius: BorderRadius.circular(20)
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  Container(
+                    width: 325,
+                    height: 82,
+                    decoration: BoxDecoration(
+                      color: const Color(0xff326060),
+                      borderRadius: BorderRadius.circular(20)
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                   Divider(
+                    height: 1,
+                    color: Colors.grey[600],
                   ),
                 ],
               )
