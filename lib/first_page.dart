@@ -12,7 +12,25 @@ class _FirstPageState extends State<FirstPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Column() ,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Stack(
+            children: [
+              Center(
+                child: Container(
+                  height: 270,
+                  width: 276,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Colors.white,
+                  ),
+                ),
+              )
+            ],
+          )
+        ],
+      ) ,
     );
   }
 }
