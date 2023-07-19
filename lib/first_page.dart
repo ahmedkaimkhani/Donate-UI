@@ -26,8 +26,8 @@ class _FirstPageState extends State<FirstPage> {
                     color: Colors.white,
                   ),
                   child: Column(
-                    children: const [
-                      Padding(
+                    children:  [
+                      const Padding(
                         padding: EdgeInsets.only(top: 40, left: 29, right: 14),
                         child: Text(
                           'Donated Successfully',
@@ -37,13 +37,21 @@ class _FirstPageState extends State<FirstPage> {
                               fontWeight: FontWeight.w700),
                         ),
                       ),
-                      Padding(
+                      const Padding(
                         padding: EdgeInsets.only(top: 18,left: 45,right: 44),
                         child: Text(
                           'You have Donated successfully\n you can track your donation.\n Thank you.',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                               fontSize: 12, fontWeight: FontWeight.w600),
+                        ),
+                      ),
+                      Container(
+                        height: 50,
+                        width: 180,
+                        decoration: BoxDecoration(
+                          color: const Color(0xff326060),
+                          borderRadius: BorderRadius.circular(10)
                         ),
                       )
                     ],
