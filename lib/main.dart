@@ -1,4 +1,5 @@
 import 'package:donate_ui_flutter/first_page.dart';
+import 'package:donate_ui_flutter/second_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:FirstPage() ,
+      home:SecondPage() ,
     );
   }
 }
