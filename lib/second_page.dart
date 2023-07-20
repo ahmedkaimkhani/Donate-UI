@@ -87,6 +87,54 @@ class _SecondPageState extends State<SecondPage> {
                     decoration: BoxDecoration(
                         color: const Color(0xff326060),
                         borderRadius: BorderRadius.circular(20)),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Padding(
+                          padding: EdgeInsets.only(top: 9, left: 15),
+                          child: Text(
+                            'Total Dress available',
+                            style: TextStyle(
+                                fontSize: 18,
+                                fontWeight: FontWeight.w600,
+                                color: Colors.white),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: 6,
+                        ),
+                        Row(
+                          children: [
+                            Padding(
+                              padding:
+                                  const EdgeInsets.only(left: 15, right: 8),
+                              child: Container(
+                                width: 40,
+                                height: 30,
+                                decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(15)),
+                                child: const Center(
+                                    child: Text(
+                                  '400',
+                                  style: TextStyle(
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w700,
+                                      color: Color(0xff326060)),
+                                )),
+                              ),
+                            ),
+                            const Text(
+                              'Dresses',
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.white),
+                            )
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 20),
                   Container(
