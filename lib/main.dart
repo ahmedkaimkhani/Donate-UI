@@ -1,3 +1,4 @@
+import 'package:donate_ui_flutter/admin_home.dart';
 import 'package:donate_ui_flutter/first_page.dart';
 import 'package:donate_ui_flutter/second_page.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:SecondPage() ,
+      home:AdminHome() ,
     );
   }
 }
