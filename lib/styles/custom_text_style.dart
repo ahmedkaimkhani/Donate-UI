@@ -24,7 +24,7 @@ class CustomTextStyle {
       fontWeight: FontWeight.w700,
       color: Styling.textfieldsColor);
 
-      final font_14 = const TextStyle(
+  final font_14 = const TextStyle(
       fontSize: 14, fontWeight: FontWeight.w700, color: Colors.black);
 
   final font_10 = const TextStyle(
