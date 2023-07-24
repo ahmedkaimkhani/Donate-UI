@@ -10,17 +10,23 @@ class CustomTextStyle {
     fontWeight: FontWeight.w800,
     color: Styling.primaryColor,
   );
-
-  final font_10 = const TextStyle(
-      fontSize: 10, fontWeight: FontWeight.w700, color: Colors.black);
-}
   final font_48 = TextStyle(
     fontSize: 48,
     fontWeight: FontWeight.w700,
     color: Styling.textfieldsColor,
   );
   final font_20 = TextStyle(
-    fontSize: 20,
-    fontWeight: FontWeight.w700,
-    color: Styling.textfieldsColor
-  );
+      fontSize: 20,
+      fontWeight: FontWeight.w700,
+      color: Styling.textfieldsColor);
+  final font_15 = TextStyle(
+      fontSize: 15,
+      fontWeight: FontWeight.w700,
+      color: Styling.textfieldsColor);
+
+      final font_14 = const TextStyle(
+      fontSize: 14, fontWeight: FontWeight.w700, color: Colors.black);
+
+  final font_10 = const TextStyle(
+      fontSize: 10, fontWeight: FontWeight.w700, color: Colors.black);
+}
