@@ -125,7 +125,7 @@ class _SecondPageState extends State<SecondPage> {
                               ),
                             ),
                             const Text(
-                              'Dresses',
+                              'Kilograms',
                               style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.w600,
